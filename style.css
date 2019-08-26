@@ -1,0 +1,135 @@
+* {
+    transition: all .5s linear;
+}
+
+body {
+    width: 98%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+img[src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqaGIA0llHXjf_Eb6zvA--IQNqvzaOokSgMxyDcHBMB04BahQT"] {
+    border-radius: 50%;
+    margin: 10px auto;
+    display: block;
+    width: 180px;
+    height: 180px;
+}
+
+.d1 {
+    background-color: rgba(74, 168, 227, 0.69);
+    width: 15cm;
+    height: 15cm;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 2px #f00, -3px -3px 2px #f00, 5px 5px 2px #ff0, -5px -5px 2px #ff0, 8px 8px 5px #00f, -8px -8px 5px #00f;
+}
+
+input {
+    display: block;
+    width: 10cm;
+    height: 1.5cm;
+    margin: 120px auto 6px auto;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.b2:hover {
+    border: 3px dotted red;
+    cursor: pointer;
+    color: red;
+
+}
+
+.b1:hover {
+    border: 3px dotted blue;
+    cursor: pointer;
+    color: #2e0098;
+
+}
+
+.b1 {
+    height: 50px;
+    background-color: #429642;
+    border: 3px solid #b10404;
+    width: 175px;
+    float: right;
+    margin-right: 16%;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    font-size: 25px;
+    margin-top: 20px;
+    border-top-left-radius: 90px;
+    font-family: arial;
+}
+
+.b2 {
+    height: 50px;
+    background-color: #db9441;
+    border: 3px solid #040;
+    width: 175px;
+    float: left;
+    margin-left: 16%;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    font-size: 25px;
+    margin-top: 20px;
+    border-bottom-right-radius: 90px;
+}
+
+@keyframes mahmoud {
+    0% {
+        background-color: rgba(40, 68, 162, 0.54);
+        box-shadow: 3px 3px 2px #ff0, -3px -3px 2px #ff0, 5px 5px 2px #080, -5px -5px 2px #080, 8px 8px 5px #00f, -8px -8px 5px #00f;
+    }
+
+    10% {
+        background-color: rgba(208, 128, 59, 0.54);
+    }
+
+    20% {
+        background-color: rgba(208, 59, 145, 0.54);
+    }
+
+    30% {
+        background-color: rgba(208, 133, 59, 0.54);
+    }
+
+    40% {
+        background-color: rgba(242, 51, 117, 0.54);
+    }
+
+    50% {
+        background-color: rgba(22, 175, 99, 0.54);
+        box-shadow: 4px 4px 2px #20e272, -4px -4px 2px #20e272, 6px 6px 2px #93931c, -6px -6px 2px #93931c, 9px 9px 5px #dd22a3, -9px -9px 5px #dd22a3;
+
+    }
+
+    60% {
+        background-color: rgba(203, 240, 44, 0.54);
+    }
+
+    70% {
+        background-color: rgba(245, 117, 23, 0.54);
+    }
+
+    80% {
+        background-color: rgba(65, 198, 25, 0.58);
+    }
+
+    90% {
+        background-color: rgba(234, 48, 48, 0.54);
+    }
+
+    100% {
+        background-color: rgba(239, 34, 58, 0.54);
+        box-shadow: 3px 3px 2px #c78a29, -3px -3px 2px #c78a29, 5px 5px 2px #199a4b, -5px -5px 2px #ff0, 8px 8px 5px #00f, -8px -8px 5px #00f;
+    }
+}
